@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+
+main {
+
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+}
+
+label {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input{
+    margin-right: 10px;
+}
+
+select {
+    margin-right: 10PX;
+}
+
+table{
+    margin:20px auto;
+    width: 50%;
+}
+
+table tr td{
+    text-align: center;
+}
+
+

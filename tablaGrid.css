@@ -1,0 +1,66 @@
+* {
+    font-size: 15px;
+}
+
+.tarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.tarea label,
+.tarea input,
+.tarea select {
+  margin: 10px;
+}
+
+.tablaTarea {
+  background-color: blueviolet;
+  grid-area: tarea;
+  border: 1px solid black;
+}
+
+.tablaPrioridad {
+  background-color: chartreuse;
+  grid-area: prioridad;
+  border: 1px solid black;
+}
+
+.tabla {
+
+  display: grid;
+  grid-template: 
+  "tarea prioridad";
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+
+}
+
+.tabla .tomato {
+  background-color: orange;
+}
+
+.tabla .pepe {
+  background-color: darkgoldenrod;
+}
+
+.tabla .claseej {
+  background-color: rgb(247, 0, 255);
+}
+
+.tabla .pepa {
+
+  background-color: rgb(0, 255, 115);
+  grid-row: 2/3;
+  grid-column: 2 / 3;
+
+}
+
+
+
+
+
